@@ -96,6 +96,8 @@ tr {
 
 #preptime {
     color: rgb(101, 35, 63);
+    font-weight: 700;
+    font-size: 20px;
 }
 
 hr {
