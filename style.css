@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Outfit;
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: YoungSerif;
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    font-family: Outfit, sans-serif;
+    background-color: rgb(243, 229, 216);
+    color: rgb(97, 87, 85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: white;
+    padding: 45px;
+    border-radius: 15px;
+    height: auto;
+    max-width: 40%;
+}
+
+img {
+    border-radius: 15px;
+    height: auto;
+    max-width: 100%;
+}
+
+#prep {
+    background-color: rgb(255, 247, 252);
+    padding: 10px; 
+    border-radius: 15px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h1 {
+    font-family: YoungSerif, sans-serif;
+    color: rgb(51, 50, 48);
+}
+
+h2 {
+    font-family: YoungSerif, sans-serif;
+    color: rgb(136, 70, 56);
+}
+
+ul{
+    margin-left: -10px;
+}
+
+ol{
+    margin-left: -10px;
+}
+
+li {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+li::marker {
+    color: rgb(136, 70, 56);
+}
+
+th {
+    color: rgb(136, 70, 56);
+    text-align: left;
+}
+
+td{
+    padding-left: 30px;
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid rgb(243, 229, 216);
+    line-height: 40px;
+}
+
+h3 {
+    color: rgb(101, 35, 63);
+}
+
+hr {
+    height: .2px;
+    color: rgb(243, 229, 216);
+    background-color: rgb(243, 229, 216);
+    border: none;
+}
